@@ -9,6 +9,7 @@ def countdown(h,m,s):
         time.sleep(1)
         total_seconds -= 1
     print("Bzzzt! The countdown is at zero seconds!")
+    print("You can insert zero to hours and minutes as you like!")
 
 h = input("Enter the time in hours: ")
 m = input("Enter the time in minutes: ")
